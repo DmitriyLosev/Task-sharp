@@ -30,3 +30,19 @@ C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends and dog\obj\Debu
 C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends and dog\obj\Debug\net6.0\ref\friends and dog.dll
 C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends and dog\obj\Debug\net6.0\friends and dog.pdb
 C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends and dog\obj\Debug\net6.0\friends and dog.genruntimeconfig.cache
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\friends and dog.exe
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\friends and dog.deps.json
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\friends and dog.runtimeconfig.json
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\friends and dog.dll
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\ref\friends and dog.dll
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\bin\Debug\net6.0\friends and dog.pdb
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.GlobalUsings.g.cs
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.AssemblyInfo.cs
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.dll
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\ref\friends and dog.dll
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.pdb
+C:\Users\Student\Desktop\Обучение\c#1lection\DZ\friends_and_dog\obj\Debug\net6.0\friends and dog.genruntimeconfig.cache
