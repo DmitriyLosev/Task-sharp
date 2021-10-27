@@ -1,17 +1,17 @@
 ﻿Console.WriteLine($"Задача: Сколько раз пробежит собака от одного друга к другому, пока они идут на встречу друг другу?");
 Console.WriteLine($"Введите дистанцию между друзьями");
-double distance = Convert.ToInt32(Console.ReadLine()); //Дистанция между друзьями
+double distance = Convert.ToDouble((Console.ReadLine())); //Дистанция между друзьями
 Console.WriteLine($"Введите скорость первого друга");
-int firstfriendspeed = Convert.ToInt32(Console.ReadLine()); // скорость первого друга
+double firstfriendspeed = Convert.ToDouble((Console.ReadLine())); // скорость первого друга
 Console.WriteLine($"Введите скорость второго друга");
-int secondfriendspeed = Convert.ToInt32(Console.ReadLine()); // скорость второго друга
+double secondfriendspeed = Convert.ToDouble((Console.ReadLine())); // скорость второго друга
 Console.WriteLine($"Введите скорость собаки");
-int dogspeed = Convert.ToInt32(Console.ReadLine()); // скорость собаки
+double dogspeed = Convert.ToDouble((Console.ReadLine())); // скорость собаки
 int friend = 2; // собака первый пробег начинается от второго друга к первому
 int count = 0; // количество пробегов
 double time = 0; // дополнительная переменная для расчёта остатка дистанции
 Console.WriteLine($"Введите дистанцию между друзьями где они остановяться");
-int end = Convert.ToInt32(Console.ReadLine()); // расстояние между друзьми, до которго нужно вести подсчёт количества пробегов собаки
+double end = Convert.ToDouble((Console.ReadLine())); // расстояние между друзьми, до которго нужно вести подсчёт количества пробегов собаки
 while (distance > end) //Выполнять цикл  ниже (в фигурных скобках) пока дистанция между друзьми больше 10 (end в условии равен 10)
 {
     if(friend == 1) // если переменная friend ровна 1, то выполяется условия ниже в фигурных скобках
