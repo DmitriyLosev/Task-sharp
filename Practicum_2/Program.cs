@@ -32,21 +32,18 @@ Console.WriteLine("Массив B, Исключены элементы нару�
 // Исключение элементов нарушения возрастания
 
 int currentElement = array[0];
-Console.WriteLine(currentElement);
+Console.WriteLine(currentElement); // выводим первое значение массива
 index = 1;
 
-while (index <= 9)
+while (index <= 9) // создаем цикл
 {
-    if(array[index]>currentElement)
+    if(array[index]>currentElement) // если следующее значение массива более, то выполняем условие
     {
         Console.WriteLine(array[index]);
         currentElement = array[index];
-        
     }
     index++;
 }
-
-
 
 //Исключаем значения больше 8
 Console.WriteLine();
@@ -69,14 +66,14 @@ Console.WriteLine(currentElement);
 index = 1;
 while (index <= 9)
 {
-    if(currentElement > 0 && array[index] < 0 )
-    {
+    if(currentElement > 0 && array[index] < 0 ) // если  первое значене массива больше нуля 
+    {                                           //и второе значение массива меньше нуля, выполняется условие
         Console.WriteLine(array[index]);
         currentElement = array[index];
     }
     
-    if(currentElement < 0 && array[index] > 0 )
-    {
+    if(currentElement < 0 && array[index] > 0 ) // если  первое значене массива меньше нуля 
+    {                                           //и (&&) второе значение массива больше нуля, выполняется условие
         Console.WriteLine(array[index]);
         currentElement = array[index];
     }
