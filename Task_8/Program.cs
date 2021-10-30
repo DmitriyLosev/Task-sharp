@@ -1,7 +1,7 @@
 ﻿//2 способ
 int Max(int arg1, int arg2, int arg3) // берем некоторые аргументы под номерами arg1 arg2 arg3
-{ // описываем тело метода
-    int result = arg1;  
+{ 
+    int result = arg1;  // описываем тело метода
     if(arg2 > result) result = arg2;
     if(arg3 > result) result = arg3;
 
@@ -9,7 +9,7 @@ int Max(int arg1, int arg2, int arg3) // берем некоторые аргу�
 }
 // 1 способ
 int a1 = 12;
-int b1 = 25;
+int b1 = 2522;
 int c1 = 2;
 
 int a2 = 55;
@@ -39,6 +39,9 @@ int c3 = 31;
 //int max3 = Max(a3, b3, c3);
 //int max = Max(max1, max2, max3);
 
-int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Мax(a3, b3, c3));
+int max = Max(
+    Max(a1, b1, c1), 
+    Max(a2, b2, c2), 
+    Max(a3, b3, c3));
 
 Console.WriteLine(max);
