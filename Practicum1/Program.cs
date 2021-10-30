@@ -27,8 +27,7 @@ while (index <= 9)
 Console.WriteLine();
 Console.WriteLine("Массив B, Исключены элементы нарушающие возрастание в массиве А");
 // Исключение элементов нарушения возрастания
-//int index1 = 0;
-//int[] array1 = new int[10];
+
 int currentElement = array[0];
 Console.WriteLine(currentElement);
 index = 1;
@@ -39,9 +38,7 @@ while (index <= 9)
     {
         Console.WriteLine(array[index]);
         currentElement = array[index];
-        //array1[index1] = array[index];
-        //Console.WriteLine(array1[index1]);
-        //index1++;
+        
     }
     index++;
 }
