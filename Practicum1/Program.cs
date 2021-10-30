@@ -16,7 +16,7 @@ while (index < 10)
 
 index = 0;
 // печатаем массив
-
+Console.WriteLine("Массив А");
 while (index <= 9)
 {
     int val = array[index];
@@ -25,13 +25,14 @@ while (index <= 9)
 }
 
 Console.WriteLine();
-
+Console.WriteLine("Массив B, Исключены элементы нарушающие возрастание в массиве А");
 // Исключение элементов нарушения возрастания
 //int index1 = 0;
 //int[] array1 = new int[10];
 int currentElement = array[0];
 Console.WriteLine(currentElement);
 index = 1;
+
 while (index <= 9)
 {
     if(array[index]>currentElement)
@@ -57,7 +58,8 @@ while (index < result)
 }
 
 int aref = sum/result;
-Console.WriteLine($"Среднее арефметическое {aref}");
+Console.WriteLine("Массив B, исключены значения больше Средне арефметического масива A");
+Console.WriteLine(aref);
 
 index = 0;
 while (index <= 9)
@@ -68,14 +70,18 @@ while (index <= 9)
     }
     index++;
 }
+
 //убираем чётные
 Console.WriteLine();
+Console.WriteLine("Массив B, исключены чётные значения из массива А");
 index = 0;
 while (index <= 9)
 {
     if(array[index] % 2 !=0  )
     {
+        
         Console.WriteLine(array[index]);
     }
     index++;
 }
+
