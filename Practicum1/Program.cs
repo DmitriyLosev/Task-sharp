@@ -56,7 +56,7 @@ while (index < result)
 
 int aref = sum/result;
 Console.WriteLine("Массив B, исключены значения больше Средне арефметического масива A");
-Console.WriteLine(aref);
+Console.WriteLine($"Среднее арефметическое равно {aref}");
 
 index = 0;
 while (index <= 9)

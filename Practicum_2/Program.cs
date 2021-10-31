@@ -7,8 +7,8 @@
 //знакочередования
 int[] array = new int[10]; //создаём новый массив на 10 значений
 int index = 0;
-int minValue = -50;
-int maxValue = 50;
+int minValue = -4;
+int maxValue = 4;
 // Заполняет массив
 while (index < 10)
 {
@@ -61,7 +61,7 @@ while (index <= 9)
 
 Console.WriteLine();
 Console.WriteLine("Массив B, исключены значения нарушающие знакочередования в массиве A ");
-currentElement = array[0];
+//currentElement = array[0];
 Console.WriteLine(currentElement);
 index = 1;
 while (index <= 9)
