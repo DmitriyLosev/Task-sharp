@@ -61,21 +61,21 @@ while (index <= 9)
 
 Console.WriteLine();
 Console.WriteLine("Массив B, исключены значения нарушающие знакочередования в массиве A ");
-//currentElement = array[0];
+currentElement = array[0];
 Console.WriteLine(currentElement);
 index = 1;
 while (index <= 9)
 {
-    if(currentElement > 0 && array[index] < 0 ) // если  первое значене массива больше нуля 
+    if (currentElement > 0 && array[index] < 0 || currentElement < 0 && array[index] > 0) // если  первое значене массива больше нуля 
     {                                           //и второе значение массива меньше нуля, выполняется условие
         Console.WriteLine(array[index]);
         currentElement = array[index];
     }
     
-    if(currentElement < 0 && array[index] > 0 ) // если  первое значене массива меньше нуля 
-    {                                           //и (&&) второе значение массива больше нуля, выполняется условие
-        Console.WriteLine(array[index]);
-        currentElement = array[index];
-    }
+    // if (currentElement < 0 && array[index] > 0 ) // если  первое значене массива меньше нуля 
+    // {                                           //и (&&) второе значение массива больше нуля, выполняется условие
+    //     Console.WriteLine(array[index]);
+    //     currentElement = array[index];
+    // }
     index++;
 }
