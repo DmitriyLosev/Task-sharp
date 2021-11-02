@@ -8,7 +8,7 @@
 int[] array = new int[10]; //создаём новый массив на 10 значений
 int index = 0;
 int minValue = -100;
-int maxValue = -100;
+int maxValue = 100;
 // Заполняет массив
 while (index < 10)
 {
