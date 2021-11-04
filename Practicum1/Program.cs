@@ -43,6 +43,7 @@ while (index <= 9)
     index++;
 }
 
+
 //больше среднего арифметического элементов A
 index = 0;
 int result = array.Length;
